@@ -19,6 +19,12 @@ function Header() {
           >
             Home
           </Link>
+          <Link
+            to="/contact"
+            className="text-sm font-medium text-gray-700 hover:text-black"
+          >
+            Contact
+          </Link>
 
           <Link
             to="/cart"
