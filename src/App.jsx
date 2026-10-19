@@ -3,13 +3,12 @@ import { Routes, Route } from "react-router";
 import Home from "./pages/Home";
 // import Cart from "./pages/Cart";
 // import Contact from "./pages/Contact";
-import Header from "./components/header";
+import Header from "./components/Header";
 import { CartProvider } from "./context/CartProvider";
 
 // Code Splitting
 const Contact = lazy(() => import("./pages/Contact"));
 const Cart = lazy(() => import("./pages/Cart"));
-
 
 function App() {
   return (
